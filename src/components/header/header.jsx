@@ -4,6 +4,9 @@ import './CTA'
 import CTA from './CTA' //here we import the CTA component inside our header
 import me from '../../assets/changer.jpg'
 import  Headersocial from './headersocial' //import of headerSocial component
+import Typewriter from 'typewriter-effect';
+
+
 
 
 
@@ -11,6 +14,8 @@ export const Header = () => {
     return (
     <header>
     <div className='container header__container'>
+    
+
     <h5>Hello I'm</h5>
     <h1>MILKOVIC</h1>
     <h5 className='text-light'>Software Engineer </h5>

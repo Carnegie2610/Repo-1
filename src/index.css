@@ -10,8 +10,8 @@ list-style: none;
 text-decoration: none;
 }
 :root{ /* as root variable we can used it everywhere*/
---color-bg:#ff1a1a; /* // used two(-) to declare css variable*/
---color-bg-variant:#ff007b;
+--color-bg:#000000; /* // used two(-) to declare css variable*/
+--color-bg-variant:#A52A2A;
 --color-primary:#ff6a00;
 --color-primary-variant:rgba(77, 181, 255, 0.4);
 --color-white:#fff;

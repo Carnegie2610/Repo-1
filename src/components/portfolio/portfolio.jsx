@@ -14,66 +14,31 @@ export const Portfolio = () => {
   const portfolioContent = [
     {
       image : img1,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
+      youtube: 'https://github.com',
+      demo: 'https://www.youtube.com/watch?v=dmogGUovW8c',
       id: 1,
-      title:'Project 1'
+      title:'COMPILING AND EXECUTION'
     },
     {
       image : img2,
       github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
+      demo: 'https://www.youtube.com/watch?v=sw-SiYySO9w',
       id: 2,
-      title:'Project 2'
+      title:'IMPLEMENTATION OF A LINKED LIST IN C PROGRAMING'
     },
     {
       image : img3,
       github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
+      demo: 'https://www.youtube.com/watch?v=mvjw8JAS8fw',
       id: 4,
-      title:'Project 4'
+      title:'TUTORIAL CREATING A LINKED LIST OF STUDENT'
     },
     {
       image : img5,
       github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
+      demo: 'https://www.youtube.com/watch?v=80rl3gkCG-A',
       id: 5,
-      title:'Project 5'
-    },
-    {
-      image : img6,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 6,
-      title:'Project 6'
-    },
-      {
-      image : img7,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 7,
-      title:'Project 7'
-    },
-    {
-      image : img8,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 8,
-      title:'Project 8'
-    },
-    {
-      image : img9,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 9,
-      title:'Project 9'
-    },
-    {
-      image : img1,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 10,
-      title:'Project 10'
+      title:'PRESENTATION OF A CHAINED LIST'
     },
   ]
   return (

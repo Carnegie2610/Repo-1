@@ -12,10 +12,11 @@ const Navbar = () => {
     const [activeNav, setActiveNav] = useState('#')
     return (
         <nav>
-            <a href='https://www.youtube.com/watch?v=s8v9Utq4nhg' onClick={()=>setActiveNav('#')} className={activeNav==='#'? 'active' : ''}><AiOutlineHome/></a>
+            <a href='#' onClick={()=>setActiveNav('#')} className={activeNav==='#'? 'active' : ''}><AiOutlineHome/></a>
+            <a href='#services' onClick={()=>setActiveNav('#services')} className={activeNav==='#service'? 'active' : ''}><RiServiceLine/></a>
             <a href='#about' onClick={()=>setActiveNav('#about')} className={activeNav==='#about'? 'active' : ''} ><AiOutlineUser/></a>
             <a href='#experience' onClick={()=>setActiveNav('#experience')} className={activeNav==='#experience'? 'active' : ''}><BiBook/></a>
-            <a href='#service' onClick={()=>setActiveNav('#service')} className={activeNav==='#service'? 'active' : ''}><RiServiceLine/></a>
+           
             <a href='#contact' onClick={()=>setActiveNav('#contact')} className={activeNav==='#contact'? 'active' : ''}><BiMessageSquareDetail/></a>
         </nav>
     )

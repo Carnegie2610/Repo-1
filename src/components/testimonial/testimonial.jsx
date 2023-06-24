@@ -12,9 +12,11 @@ import { Pagination, Navigation, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
 // Import Swiper styles
-import 'swiper/css';
+import 'swiper/css/swiper.css';
 import 'swiper/css/pagination';
+
 //import 'swiper/swiper.min.css'
 //import 'swiper/modules/pagination/pagination.min.css'
 
@@ -71,7 +73,7 @@ export const Testimonial = () => {
       <Swiper className="container testimonials__container"
       modules={[Pagination, Navigation, Scrollbar, A11y]}
       spaceBetween={40}
-      slidesPerView={1}
+      slidesPerView={2}
       pagination={{ clickable: true }}
       >
         {testimonials.map((testi) => {

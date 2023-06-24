@@ -9,12 +9,12 @@ const Footer = () => {
     return (
       <div className="footer__container">
         <a href="#https://www.youtube.com/watch?v=FCEPfHhHc2Y" className="footer__logo">
-          Brown Alden
+          Ronsard Carnegie
         </a>
 
         <ul className="permalinks">
           <li>
-            <a href="#https://www.youtube.com/watch?v=s8v9Utq4nhg">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#about">About</a>

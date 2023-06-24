@@ -4,7 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
 import {useRef} from 'react'
-//import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = useRef();
@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      //emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current, 'EmSdUNQzQuxkUqGWx')
+      emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current, 'EmSdUNQzQuxkUqGWx')
       e.target.reset() 
       .then((result) => {
         console.log(result.text)
@@ -32,7 +32,7 @@ const Contact = () => {
               <h4>Email</h4>
               <h5>myEmail@gmail.com</h5>
               <a
-                href="mailto:aldenovpoutine99@gmail.com"
+                href="mailto:ronsard44djoumessi@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -45,11 +45,11 @@ const Contact = () => {
               <h4>LinkedIn</h4>
               <h5>Profile</h5>
               <a
-                href="https://www.linkedin.com/in/brown-djomo-844b96164/"
+                href="https://www.linkedin.com/in/ronsard-carnegie-214857253/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Tape me on LinkedIn
+                Tap me on LinkedIn
               </a>
             </article>
 
@@ -58,7 +58,7 @@ const Contact = () => {
               <h4>Whatsapp</h4>
               <h5>Direct message</h5>
               <a
-                href="https://web.whatsapp.com/send?phone=+237657268549"
+                href="https://web.whatsapp.com/send?phone=+237650241086"
                 target="_blank"
                 rel="noreferrer"
               >
