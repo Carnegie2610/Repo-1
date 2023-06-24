@@ -1,4 +1,4 @@
-import React { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './portfolio.css';
 
@@ -7,20 +7,19 @@ const Portfolio = () => {
     return (
         <section id="portfolio">
           <h5>My recent work</h5>
-          <h2>Portfolio</h2>
-    <ListPortfolio/>  
+          <h2>Portfolio</h2> 
           <div className="container portfolio__container">
-          {
-            portfolioContent.map((content, id) =>{
-              return (
+          
+            {data.map(({id,image,title,github,demo}) => (
+              
                 <article key={id} className="portfolio__item">
-                  <div className="portfolio__item__image">
-                    <img src={content.image} alt=" one" className="portImage" />
+                  <div className="portfolio__item-img">
+                    <img src={image} alt="title" />
                   </div>
-                  <h3> {content.title} </h3>
-                  <div className="portfolio__item__cta">
+                  <h3> {title} </h3>
+                  <div className="portfolio__item-cta">
                     <a
-                      href={content.github}
+                      href={github}
                       className="btn"
                       target="_blank"
                       rel="noreferrer"
@@ -37,15 +36,13 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </article>
-              );
-            }
+              ))}
             
-            )
-          }
+            
+           
           </div>
         </section>
       );
-    };
+            };
     export default Portfolio;
     
-}
