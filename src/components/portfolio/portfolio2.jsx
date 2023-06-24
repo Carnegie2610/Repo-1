@@ -4,6 +4,25 @@ import './portfolio.css';
 
 const Portfolio = () => {
 
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        axios.get("https://good-newt-uniform.cyclic.app/api/testimonial").then(response => {
+            const formttedData = response.data.data.map((item =>({
+                id:item._id,
+                image:item.image,
+                title: item.title,
+                github: item.github,
+                demo: item.demo
+            }));setData(formattedData)
+        }).catch(error => {
+            console.log("Error fetching potfolio data:",error);
+        })
+                
+        })
+    },[])
+
+    useEffect(( => ))
     return (
         <section id="portfolio">
           <h5>My recent work</h5>
