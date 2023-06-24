@@ -19,10 +19,10 @@ const Portfolio = () => {
             console.log("Error fetching potfolio data:",error);
         })
                 
-        })
-    },[])
+        
+    }, [])
 
-    useEffect(( => ))
+    
     return (
         <section id="portfolio">
           <h5>My recent work</h5>
